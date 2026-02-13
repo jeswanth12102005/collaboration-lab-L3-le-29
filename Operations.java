@@ -16,7 +16,7 @@ public class Operations {
         System.out.println("Multiplication: " + (a * b));
 
         if (b != 0) {
-            System.out.println("Division: " + (a / b));
+            System.out.println("Division: " + ((double) a / b));
         } else {
             System.out.println("Division not possible (divide by zero)");
         }
