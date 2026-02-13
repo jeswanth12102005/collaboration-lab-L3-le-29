@@ -1,8 +1,8 @@
 public class Operations {
     public static void main(String[] args) {
 
-        int a = Integer.parseInt(args[0]);
-        int b = Integer.parseInt(args[1]);
+        int a = 10;
+        int b = 5;
 
         System.out.println("Addition: " + (a + b));
         System.out.println("Subtraction: " + (a - b));
@@ -11,7 +11,7 @@ public class Operations {
         if (b != 0) {
             System.out.println("Division: " + ((double) a / b));
         } else {
-            System.out.println("Division not possible (divide by zero)");
+            System.out.println("Division not possible");
         }
     }
 }
